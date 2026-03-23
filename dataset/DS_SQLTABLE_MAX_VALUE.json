@@ -1,0 +1,26 @@
+{
+	"name": "DS_SQLTABLE_MAX_VALUE",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQLTABLE_MAX_VALUE",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"schemaname": {
+				"type": "string"
+			},
+			"tablename": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": {
+				"value": "@dataset().schemaname",
+				"type": "Expression"
+			}
+		}
+	}
+}
