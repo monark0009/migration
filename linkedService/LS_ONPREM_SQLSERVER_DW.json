@@ -7,11 +7,11 @@
 		"typeProperties": {
 			"server": "DESKTOP-SPFUOTO",
 			"database": "tables",
-			"encrypt": "mandatory",
+			"encrypt": "optional",
 			"trustServerCertificate": false,
 			"authenticationType": "SQL",
 			"userName": "monark",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIzMTRiNjI3MS00MTUwLTRkMzAtYjRmYi1iNzU3NDdmNWE5ZDkiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI0MDJjMThiMi00MGJkLTQ4YTAtYjc1Mi1iMWVhN2JiNDQ0N2QiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "integrationRuntime1",
