@@ -1,0 +1,51 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfmigration009"
+		},
+		"LS_ADLS_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_ONPREM_SQLSERVER_DW_password": {
+			"value": ""
+		},
+		"LS_SQLTABLE_MAX_VALUE_password": {
+			"value": ""
+		},
+		"LS_SQLTABLE_WATERMARK_password": {
+			"value": ""
+		},
+		"LS_ADLS_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsmigration009.dfs.core.windows.net/"
+		},
+		"LS_ONPREM_SQLSERVER_DW_properties_typeProperties_server": {
+			"value": "DESKTOP-SPFUOTO"
+		},
+		"LS_ONPREM_SQLSERVER_DW_properties_typeProperties_database": {
+			"value": "tables"
+		},
+		"LS_ONPREM_SQLSERVER_DW_properties_typeProperties_userName": {
+			"value": "monark"
+		},
+		"LS_SQLTABLE_MAX_VALUE_properties_typeProperties_server": {
+			"value": "DESKTOP-SPFUOTO"
+		},
+		"LS_SQLTABLE_MAX_VALUE_properties_typeProperties_database": {
+			"value": "tables"
+		},
+		"LS_SQLTABLE_MAX_VALUE_properties_typeProperties_userName": {
+			"value": "monark"
+		},
+		"LS_SQLTABLE_WATERMARK_properties_typeProperties_server": {
+			"value": "DESKTOP-SPFUOTO"
+		},
+		"LS_SQLTABLE_WATERMARK_properties_typeProperties_database": {
+			"value": "tables"
+		},
+		"LS_SQLTABLE_WATERMARK_properties_typeProperties_userName": {
+			"value": "monark"
+		}
+	}
+}
