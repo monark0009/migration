@@ -11,7 +11,11 @@
 			"trustServerCertificate": false,
 			"authenticationType": "SQL",
 			"userName": "monark",
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEZGRjhDRERBLTJBNzItNDMzNy1CRkJFLTk3MjJFOEY5MDNDOF8xODExNTQxMS03MDNkLTRiNzEtOTZjOS01NmRjZDNiZmQ4MjYiDQp9"
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI1NGVlM2Q2ZS05ZjcxLTQ3MzYtOGMwMy0zNDZjYjNjZDZjMzkiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
 		}
 	}
 }
