@@ -19,7 +19,10 @@
 					"value": "@concat(dataset().Table_Name,'_',formatDateTime(utcNow(),'yyyyMMddHHmmss'),'.parquet')",
 					"type": "Expression"
 				},
-				"folderPath": "@concat(dataset().Table_Name,'/',formatDateTime(utcNow(),'yyyy/MM/dd’))",
+				"folderPath": {
+					"value": "@concat(dataset().Table_Name,'/',formatDateTime(utcNow(),'yyyy/MM/dd'))\n",
+					"type": "Expression"
+				},
 				"fileSystem": "retaildw"
 			},
 			"compressionCodec": "snappy"
