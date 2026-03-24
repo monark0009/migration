@@ -27,7 +27,8 @@
 					"dataset": {
 						"referenceName": "DS_SQLTABLE_WATEMARK",
 						"type": "DatasetReference"
-					}
+					},
+					"firstRowOnly": false
 				}
 			},
 			{
@@ -44,7 +45,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"items": {
-						"value": "@activity('EXEC_SQL_INCREMENTAL').output.value",
+						"value": "@activity('LKUP_SQLTABLE_WATERMARK').output.value",
 						"type": "Expression"
 					},
 					"isSequential": false,
