@@ -5,20 +5,38 @@
 		"factoryName": {
 			"value": "adfmigration009"
 		},
+		"LS_ADLS_CSV_accountKey": {
+			"value": ""
+		},
 		"LS_ADLS_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_CP_SQL_FULL_password": {
 			"value": ""
 		},
 		"LS_ONPREM_SQLSERVER_DW_password": {
 			"value": ""
 		},
-		"LS_SQLTABLE_MAX_VALUE_password": {
+		"LS_SQLSERVER_password": {
 			"value": ""
 		},
-		"LS_SQLTABLE_WATERMARK_password": {
+		"LS_SQLSERVER_TABLE_password": {
 			"value": ""
+		},
+		"LS_ADLS_CSV_properties_typeProperties_url": {
+			"value": "https://adlsmigration009.dfs.core.windows.net/"
 		},
 		"LS_ADLS_PARQUET_properties_typeProperties_url": {
 			"value": "https://adlsmigration009.dfs.core.windows.net/"
+		},
+		"LS_CP_SQL_FULL_properties_typeProperties_server": {
+			"value": "DESKTOP-SPFUOTO"
+		},
+		"LS_CP_SQL_FULL_properties_typeProperties_database": {
+			"value": "tables"
+		},
+		"LS_CP_SQL_FULL_properties_typeProperties_userName": {
+			"value": "monark"
 		},
 		"LS_ONPREM_SQLSERVER_DW_properties_typeProperties_server": {
 			"value": "DESKTOP-SPFUOTO"
@@ -29,22 +47,22 @@
 		"LS_ONPREM_SQLSERVER_DW_properties_typeProperties_userName": {
 			"value": "monark"
 		},
-		"LS_SQLTABLE_MAX_VALUE_properties_typeProperties_server": {
+		"LS_SQLSERVER_properties_typeProperties_server": {
 			"value": "DESKTOP-SPFUOTO"
 		},
-		"LS_SQLTABLE_MAX_VALUE_properties_typeProperties_database": {
+		"LS_SQLSERVER_properties_typeProperties_database": {
 			"value": "tables"
 		},
-		"LS_SQLTABLE_MAX_VALUE_properties_typeProperties_userName": {
+		"LS_SQLSERVER_properties_typeProperties_userName": {
 			"value": "monark"
 		},
-		"LS_SQLTABLE_WATERMARK_properties_typeProperties_server": {
+		"LS_SQLSERVER_TABLE_properties_typeProperties_server": {
 			"value": "DESKTOP-SPFUOTO"
 		},
-		"LS_SQLTABLE_WATERMARK_properties_typeProperties_database": {
+		"LS_SQLSERVER_TABLE_properties_typeProperties_database": {
 			"value": "tables"
 		},
-		"LS_SQLTABLE_WATERMARK_properties_typeProperties_userName": {
+		"LS_SQLSERVER_TABLE_properties_typeProperties_userName": {
 			"value": "monark"
 		}
 	}
